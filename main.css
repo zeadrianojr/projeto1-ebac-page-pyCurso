@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    height: 100%;
+    margin:  0 auto;
+}
+ body{
+    position: relative;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+    background-color:#ffffff;
+    color: #3670a0;
+    padding: 16px 0;
+
+}
+
+header #logo-curso,
+header .container,
+header #botoes,
+#botoes .botao,
+section .container{
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    justify-content: space-between;
+}
+
+#logo-curso img{
+    height: 48px;
+    margin-right: 8px;
+    margin-left: 16px;
+}
+
+header nav li{
+    display: inline;
+}
+
+header nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#3670a0;
+}
+
+#botoes .botao{
+    background-color: #ffffff;
+    padding: 8px ;
+    margin: 8px;
+    align-items: center;
+    width: 160px;
+    height: 48px;
+    justify-content: space-around;
+    box-shadow: 0px 0px 2px  #00000059;
+    border-radius: 12px;
+}
+
+#botoes .botao:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px #0000001a inset;
+}
+
+#bordaCabeca{
+    background-color: #ffffff;
+    /*box-shadow: x y blur color inset*/
+    box-shadow: 0px 0px 5px #0000001a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#sobre{
+    margin-top: 96px;
+    background-color: #3670a0;
+    color: #eae3db;
+}
+
+#sobre h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding:16px;
+    font-size: 28px;
+}
+
+section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+section img{
+    margin-top: 72px;
+    height: 400px;
+}
+
+#programa h2,
+#inscrevase h2,
+footer p{
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 16px 0;
+}
+footer p{
+    height: 30px;
+    background-color: #3670a0;
+    color: #faebd7;
+    margin: 0;
+}
+
+#inscrevase h2{
+    padding: 16px 0 0 0;
+}
+#programa .container {
+    display: block;
+}
+
+#conjunto-cards,
+#formula{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    background-color: #3670a0;
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    box-shadow: 0px 0px 2px  #00000059;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 18px ;
+    padding: 4px;
+    color: #faebd7;
+    
+
+}
+
+.card:hover{
+    transition-duration: 1s;
+    box-shadow: 0px -12px 10px #14141438 inset;
+}
+
+#inscrevase{
+    background-color: #fde978;
+    
+    
+    
+}
+
+#inscrevase  .container{
+    display: block;
+    height: 300px;
+    align-items: center;
+   
+}
+
+form input,
+form button{
+    display: block;
+    width: 400px;
+    height: 36px;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    
+
+}
+
+form button:hover{
+    transition-duration: 1s;
+    background-color:#3670a0 ;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+form input:focus{
+    outline: #3670a0 solid 3px;
+}
